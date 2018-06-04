@@ -1,0 +1,51 @@
+{
+  "name": "react-static-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "serve": "serve dist -p 3000"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "dotenv": "^5.0.1",
+    "enzyme": "^3.3.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "faker": "^4.1.0",
+    "graphql-request": "^1.5.1",
+    "he": "^1.1.1",
+    "jest": "^22.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.20.1",
+    "netlify-lambda": "^0.4.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-burger-menu": "^2.2.3",
+    "react-dom": "^16.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-router": "^4.2.0",
+    "react-scroll": "^1.7.6",
+    "react-share": "^2.0.0",
+    "react-static": "^5.1.14",
+    "react-static-routes": "^1.0.0",
+    "react-test-renderer": "^16.2.0",
+    "react-waypoint": "^8.0.0",
+    "string-hash": "^1.1.3",
+    "styled-components": "^3.1.6",
+    "styled-reset": "^1.0.1",
+    "to-case": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "^1.1.2",
+    "serve": "^6.4.11"
+  }
+}
